@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Damage Detection</title>
+</head>
+<body>
+
+    <h1>Satellite Damage Detection</h1>
+
+    <form action="/run">
+        <button type="submit">Run Analysis</button>
+    </form>
+
+    <h2>Results</h2>
+
+    <p>{{ result }}</p>
+
+    <img src="/static/ndvi_before.png" width="300">
+    <img src="/static/ndvi_after.png" width="300">
+    <img src="/static/damage.png" width="300">
+
+</body>
+</html>
